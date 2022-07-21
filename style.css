@@ -1,0 +1,42 @@
+body {
+  background-color: olivedrab;
+}
+
+.pen {
+  border: 4px dashed rgb(203, 203, 203);
+}
+
+.pen marquee {
+  min-height: 25vh;
+  display: block;
+  width: 100%;
+}
+
+.pen marquee marquee {
+  height: 100%;
+  width: 100%;
+}
+
+.animal {
+  cursor: grab;
+  user-select: none;
+  height: 40px;
+  width: 40px;
+  overflow: visible;
+}
+
+.happy {
+  filter: drop-shadow(0px 0px 8px rgb(255, 241, 45));
+}
+
+.hungry {
+  filter: drop-shadow(0px 0px 8px rgb(255, 125, 45));
+}
+
+.sick {
+  filter: drop-shadow(0px 0px 8px rgb(255, 45, 45) hue-rotate(45deg));
+}
+
+.over-fed {
+  transform: scaleX(2);
+}
